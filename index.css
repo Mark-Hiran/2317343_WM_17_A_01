@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+/*Body part designing*/
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*Main division designing*/
+  .container-main {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px grey;
+    border-radius: 10px;
+}
+
+/*Designing "linkedin" logo*/
+  .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 4%;
+    margin-bottom: 15px;
+  }
+
+/*Designing heading "Sign in"*/
+  h1 {
+    text-align: left;
+    color: #000;
+    font-size: 30px;
+  }
+
+/*Designing the paragraph after h1*/
+  p {
+    font-size: 14px;
+    margin-bottom: 17px;
+  }
+  .container-sub {
+    margin-bottom: 17px;
+  }
+
+  .container-sub input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #566;
+    border-radius: 5px;
+}
+
+  .container-sub input:focus {
+    outline: none;
+    border-color: #0077b5;
+  }
+
+  .container-sub a{
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 22px;
+  }
+
+/*Designing details submitting button*/
+  .submit {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #0077b5;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  .submit:hover {
+    background-color: #006097;
+  }
+
+/*Designing the forgot password anchor tag*/
+  .forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #0077b5;
+    text-decoration: none;
+  }
+
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+/*Designing the signup text and anchor tag*/
+  .sign-up {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 18px; 
+  }
+  
+  .sign-up a {
+     color:#0077b5;
+     font-size: 16px; 
+  }
+  
+   .sign-up a:hover {
+     text-decoration:underline; 
+   }
